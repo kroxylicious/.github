@@ -10,7 +10,7 @@ Any unacceptable behavior should be reported to [kroxylicious-admins@redhat.com]
 
 You can contribute by:
 
-* Raising any issues you find using Kroxylicious
+* Reporting any issues you find using Kroxylicious
 * Fixing issues by opening Pull Requests
 * Improving documentation
 * Talking about Kroxylicious
