@@ -77,7 +77,7 @@ Assume good faith; it is more likely that participants are unaware of their bad 
 
 * The core project team kroxylicious-admins at redhat dot com
 
-Or one of the maintainers listed in the developers section of the project root [pom](./pom.xml) file.
+Or one of the maintainers listed in the developers section of the project root [pom](https://github.com/kroxylicious/kroxylicious/blob/main/pom.xml) file.
 
 If the violation is in documentation or code, for example inappropriate pronoun usage or word choice within official documentation, we ask that people report these privately to the project directly via <kroxylicious-admins at redhat dot com>, and, if they have sufficient ability within the project, to resolve or remove the concerning material, being mindful of the perspective of the person originally reporting the issue.
 
