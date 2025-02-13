@@ -114,7 +114,7 @@ If you decide to join the [Community Slack](https://kroxylicious.slack.com/), pl
 
 **3. Ask thoughtful questions.**
 
-- We’re all here to help each other out. The best way to get help is by investing effort into your questions. First check and see if your question is answered in the [Kroxylicious documentation](https://kroxylicious.io/kroxylicious/). You can also check GitHub trackers to see if your feature requests or bug report [GitHub issues](https://github.com/kroxylicious/kroxylicious/issues).
+- We’re all here to help each other out. The best way to get help is by investing effort into your questions. First check and see if your question is answered in the [Kroxylicious documentation](https://kroxylicious.io/kroxylicious/). You can also check GitHub trackers to see if your feature requests, question or bug report has been seen previously [GitHub issues](https://github.com/kroxylicious/kroxylicious/issues).
 
 If you still feel the need to ask a question, make sure you include:
 
