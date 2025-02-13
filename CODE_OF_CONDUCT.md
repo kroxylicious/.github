@@ -110,7 +110,7 @@ If you decide to join the [Community Slack](https://kroxylicious.slack.com/), pl
 
 **2. Use the right channel.**
 
-- Channels are an effective way to organize and focus discussions while also empowering members to opt-in to the types of content they’re interested in. When questions are posted or discussions are started in the wrong channel, it dilutes the trust of the members in the channel and, more practically, makes it harder for your questions to be answered.
+- Channels are an effective way to organize and focus discussions while also empowering members to opt in to the types of content they’re interested in. When questions are posted or discussions are started in the wrong channel, it dilutes the trust of the members in the channel and, more practically, makes it harder for your questions to be answered.
 
 **3. Ask thoughtful questions.**
 
@@ -128,8 +128,8 @@ If you still feel the need to ask a question, make sure you include:
 
 **5. Communicate openly**
 
-- Unless you have explicit permission from the person, please avoid sending direct messages to individuals. Communicating in public channels ensures that we’re all respecting each other’s attentions and we can scalably moderate our communication to mitigate harassment or discrimination. Do not use direct messages to pitch products and services. If you are receiving unwelcome direct messages, please notify an admin.
+- Unless you have explicit permission from the person, please avoid sending direct messages to individuals. Communicating in public channels ensures that we’re all respecting each other’s attention, and we can moderate in a scalable fashion our communication to mitigate harassment or discrimination. Do not use direct messages to pitch products and services. If you are receiving unwelcome direct messages, please notify an admin.
 
 **6. Practice good Slack hygiene by using threads for discussions and emojis for light reactions.**
 
-- The medium is the message. Slack can foster a warm, collaborative, and organized community when used effectively. We want to respect people’s attentions (thread notifications > channel notifications > DM notifications) and we want to improve information density (a member should be able to browse and explore many convo threads, not just see one thread discussed in a top level channel).
+- The medium is the message. Slack can foster a warm, collaborative, and organized community when used effectively. We want to respect people’s attentions (thread notifications > channel notifications > DM notifications) and we want to improve information density (a member should be able to browse and explore many conversation threads, not just see one thread discussed in a top level channel).
