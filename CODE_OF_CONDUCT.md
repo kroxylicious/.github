@@ -22,7 +22,7 @@
 
 This code of conduct applies to every part of the Kroxylicious project, including chat rooms, all public and private mailing lists, issue trackers, wikis, blogs, social media, and any other communication channel used by our communities. 
 
-We expect this code of conduct to be honored by everyone who participates in the Kroxylicious community formally or informally, or claims any affiliation with the project,  and especially when representing the project, in any role.
+We expect this code of conduct to be honored by everyone who participates in the Kroxylicious community formally or informally, or claims any affiliation with the project, and especially when representing the project, in any role.
 
 This code is __not exhaustive or complete__. It serves to distill our common understanding of a collaborative, shared environment and goals. We expect it to be followed in spirit as much as in the letter, so that it can enrich all of us and the technical communities in which we participate.
 
@@ -51,7 +51,7 @@ We strive to:
     * Repeated harassment of others. In general, if someone asks you to stop, then stop.
     * Advocating for, or encouraging, any of the above behaviour.
     
-6. **Be concise.** Keep in mind that, over time, hundreds or thousands of people will read what you write. Writing a short email means people can understand the conversation as efficiently as possible. Short emails should always strive to be empathetic, welcoming, friendly and patient. When a long explanation is necessary, consider adding a summary at the top of the message..
+6. **Be concise.** Keep in mind that, over time, hundreds or thousands of people will read what you write. Writing a short email means people can understand the conversation as efficiently as possible. Short emails should always strive to be empathetic, welcoming, friendly and patient. When a long explanation is necessary, consider adding a summary at the top of the message.
 
    Try to bring new ideas to a conversation so that each email adds something unique to the thread, keeping in mind that the rest of the thread still contains the other messages with arguments that have already been made.
 
@@ -124,7 +124,7 @@ If you still feel the need to ask a question, make sure you include:
 
 **4. Avoid double posting**
 
-- This Slack community is not a customer support channel and all members are here voluntarily. If you aren’t getting a response to a question you have, make sure you look at rules 1, 2, and 3.  It’s also worth remembering that there may not be someone in the community who has the context to help you out.
+- This Slack community is not a customer support channel and all members are here voluntarily. If you aren’t getting a response to a question you have, make sure you look at rules 1, 2, and 3. It’s also worth remembering that there may not be someone in the community who has the context to help you out.
 
 **5. Communicate openly**
 
