@@ -1,8 +1,8 @@
 <p style="text-align:center;" align="center">
       <picture align="center">
-         <source media="(prefers-color-scheme: light)" srcset="logos/kroxylicious_logo_rgb_hori_default_600px.png">
-         <source media="(prefers-color-scheme: dark)" srcset="logos/kroxylicious_logo_rgb_hori_reverse_600px.png">
-         <img align="center" src="logos/kroxylicious_logo_rgb_hori_default_600px.png" alt="Kroxylicious Logo" width="65%"/>
+         <source media="(prefers-color-scheme: light)" srcset="../logos/kroxylicious_logo_rgb_hori_default_600px.png">
+         <source media="(prefers-color-scheme: dark)" srcset="../logos/kroxylicious_logo_rgb_hori_reverse_600px.png">
+         <img align="center" src="../logos/kroxylicious_logo_rgb_hori_default_600px.png" alt="Kroxylicious Logo" width="65%"/>
       </picture>
 </p>
 
