@@ -20,7 +20,7 @@ See our [website](https://kroxylicious.io/) for more details about the project.
 
 If you want to get in touch with us, you can use:
 
-* [`#general`](https://kroxylicious.slack.com/archives/C050RNMQW8G) channel on Kroxylicious Slack](https://kroxylicious.slack.com)
+* [`#general`](https://kroxylicious.slack.com/archives/C050RNMQW8G) channel on [Kroxylicious Slack](https://kroxylicious.slack.com)
 * [GitHub Discussions](https://github.com/kroxylicious/kroxylicious/discussions)
 
 ## Contributing
