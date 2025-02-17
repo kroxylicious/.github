@@ -2,7 +2,7 @@
 
 Security is important for us. Security vulnerabilities or suspected security vulnerabilities should be reported to the project's maintainers privately, to minimize attacks against current users of Kroxylicious before they are fixed.
 
-Reported vulnerabilities will be investigated and patched on the next patch (or minor) release as soon as possible.
+Reported vulnerabilities will be investigated and patched as part of the next patch (or minor) release or as soon as practical depending on severity.
 
 IMPORTANT: Please do not file public issues on GitHub for security vulnerabilities
 
