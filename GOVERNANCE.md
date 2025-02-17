@@ -34,7 +34,7 @@ This project follows The [Commonhaus decision making][cdm] process.
 
 ## Code of Conduct
 
-All participants in the project are expected to adhere to the project's [Code of Conduct][coc]. Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
+All participants in the project are expected to adhere to the project's [Code of Conduct](./CODE_OF_CONDUCT.md). Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
 
 ## Trademark Policy
 
