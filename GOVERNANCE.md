@@ -47,3 +47,22 @@ The Kroxylicious logos, icons, and domain names are protected by trademark right
 ## Contributing
 
 We welcome all forms of contribution, from code improvements to documentation and design. For details on how to contribute and the process your contributions will follow, please read our [Contributing Guidelines][contrib].
+
+## Becoming a Code Owner
+
+New Code Owners can be elected by a majority vote of the existing Code Owners following the [Decision Making](#decision-making) process.
+
+To ensure that all potential Code Owners are judged fairly and consistently the following criteria should be taken into account in electing new Code Owners:
+
+### Code Owner Criteria
+
+* Sustained contributions over at least 3 months ideally including non-trivial PRs.
+* Reviewing other contributors’ PRs
+* Contributing to different aspects of the project and community. For example:
+  * Bug reporting, triage and fixing
+  * Addressing technical debt (in code, testing and documentation).
+  * Documentation (both content and structure).
+  * Helping users, for example on GitHub, the mailing list, Slack, Stack Overflow, and so on.
+  * Promotion of Kroxylicious, for example by blogging, speaking at conferences, and so on.
+* Knowing when to ask for help or seek consensus.
+* An indication of being committed to the long term success of the project.
