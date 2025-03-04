@@ -12,6 +12,7 @@ You can contribute by:
 
 * Reporting any issues you find using Kroxylicious
 * Fixing issues by opening Pull Requests
+* Reviewing Pull Requests opened by others.
 * Improving documentation
 * Talking about Kroxylicious
 
