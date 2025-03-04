@@ -54,7 +54,7 @@ To ensure that all potential Code Owners are judged fairly and consistently the 
 
 * Sustained contributions over at least 3 months ideally including non-trivial PRs.
 * Reviewing other contributors’ PRs
-* Contributing to different aspects of the project and community. For example:
+* Contributing to multiple aspects of the project and community. For example:
   * Bug reporting, triage and fixing
   * Addressing technical debt (in code, testing and documentation).
   * Documentation (both content and structure).
