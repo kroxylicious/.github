@@ -19,6 +19,11 @@ You can contribute by:
 All bugs, tasks or enhancements are tracked as GitHub issues.
 Issues which might be a good start for new contributors are marked with the “good-start” label.
 
+## Code Review
+
+All contributions must be reviewed by at least one Code Owner before being merged.  If a contribution
+is made by someone who is already a Code Owner, that contribution must be reviewed by at least one other Code Owner.
+
 ## I just have a question
 
 If you encounter any issues while using Kroxylicious, you can get help using:
