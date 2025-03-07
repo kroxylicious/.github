@@ -21,8 +21,8 @@ Issues which might be a good start for new contributors are marked with the “g
 
 ## Code Review
 
-All contributions must be reviewed by at least one Code Owner before being merged.  If a contribution
-is made by someone who is already a Code Owner, that contribution must be reviewed by at least one other Code Owner.
+All changes which are to be committed in project source control must be reviewed by at least one Code Owner.
+If the change is being authored by someone who is a Code Owner, that change must be reviewed by at least one other Code Owner.
 
 ## I just have a question
 
