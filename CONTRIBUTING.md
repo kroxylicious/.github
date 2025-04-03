@@ -19,6 +19,14 @@ You can contribute by:
 All bugs, tasks or enhancements are tracked as GitHub issues.
 Issues which might be a good start for new contributors are marked with the “good-start” label.
 
+## DCO Signoff
+
+The project requires that all commits are signed-off, indicating that _you_ certify the changes with the [Developer
+Certificate of Origin (DCO)](./DCO).
+
+This can be done using `git commit -s` for each commit
+in your pull request. Alternatively, to signoff a bunch of commits you can use `git rebase --signoff _your-branch_`.
+
 ## Code Review
 
 All changes which are to be committed in project source control must be reviewed by at least one Code Owner before being merged.
