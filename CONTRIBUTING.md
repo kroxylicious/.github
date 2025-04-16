@@ -22,7 +22,7 @@ Issues which might be a good start for new contributors are marked with the “g
 ## DCO Signoff
 
 The project requires that all commits are signed-off, indicating that _you_ certify the changes with the [Developer
-Certificate of Origin (DCO)](./DCO).
+Certificate of Origin (DCO)](./DCO.txt).
 
 This can be done using `git commit -s` for each commit
 in your pull request. Alternatively, to signoff a bunch of commits you can use `git rebase --signoff _your-branch_`.
