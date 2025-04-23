@@ -32,6 +32,12 @@ in your pull request. Alternatively, to signoff a bunch of commits you can use `
 All changes which are to be committed in project source control must be reviewed by at least one Code Owner before being merged.
 If the change is being authored by someone who is a Code Owner, that change must be reviewed by at least one other Code Owner before being merged.
 
+The CI workflow runs the project's unit and integration tests.  All tests must pass before a PR is consider eligible for merging.
+
+The project uses (SonarCloud)[https://sonarcloud.io/organizations/kroxylicious/projects] to help maintain code quality. In general,
+all PRs must meet all the quality gates before being eligible for merge.  Sometimes reasonable code changes cause spurious quality gate
+failures. In these situations, discuss the issue on the PR. If agreeement is reached a Code Owner with Admin rights can bypass the protection.
+
 ## I just have a question
 
 If you encounter any issues while using Kroxylicious, you can get help using:
