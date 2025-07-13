@@ -10,6 +10,7 @@ The format is: `{preferred name}, {affiliation} (@{github_username})`
 * Grace Grimwood, IBM (@gracegrimwood)
 * Keith Wall, IBM (@k-wall)
 * Francisco Vila, IBM (@franvila)
+* Paul Mellor, IBM (@PaulRMellor)
 
 # Teams
 
@@ -34,4 +35,7 @@ The format for each item is `@{github_username}`, which can be cross-referenced 
 * @k-wall
 * @franvila
 
+## `@kroxylicious/documentationwriters`
+
+* @PaulRMellor
 
