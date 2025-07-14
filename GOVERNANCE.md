@@ -19,7 +19,9 @@ This governance model is designed to uphold the principles of transparency, open
 
 ## Roles and Responsibilities
 
-- **Code owners:** Individuals with write access to any repository within the GitHub organisation, responsible for reviewing and merging contributions, and steering project direction. These individuals (or groups) will be maintained in each repository (`.github/CODEOWNERS`).
+- **Code owners:** Individuals with write access to any repository within the GitHub organisation, responsible for reviewing and merging contributions, and steering project direction. 
+  Those people with code ownership responsibilities will be identified in each repository (`.github/CODEOWNERS`).
+  For the sake of transparency, the membership of github teams will be made public in [TEAMS.md](TEAMS.md).
 - **Contributors:** Anyone who contributes to the project in any form.
 
 Reference: [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
