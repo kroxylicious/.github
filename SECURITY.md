@@ -8,7 +8,7 @@ IMPORTANT: Please do not file public issues on GitHub for security vulnerabiliti
 
 The project utilises Git Hub [Private Vulnerability Reporting](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing-information-about-vulnerabilities/privately-reporting-a-security-vulnerability) (PVR) to enable private reporting, fixing and co-ordinated disclosure. 
 
-To report a vulnerability or a security-related issue, please complete this form [report a vulnerability](https://github.com/kroxylicious/kroxylicious/security/advisories/new) or the `Report a vulnerability` button on the projects [`Secruity` tab](https://github.com/kroxylicious/kroxylicious/security) on Git Hub.
+To report a vulnerability or a security-related issue, please complete this form [report a vulnerability](https://github.com/kroxylicious/kroxylicious/security/advisories/new) or the `Report a vulnerability` button on the projects [`Security` tab](https://github.com/kroxylicious/kroxylicious/security) on GitHub.
 
 Do not report non-security-impacting issues through this channel. Use GitHub issues instead.
 
