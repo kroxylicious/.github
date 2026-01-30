@@ -1,5 +1,15 @@
 # Contributing
 
+<!-- TOC -->
+* [Contributing](#contributing)
+  * [Code of Conduct](#code-of-conduct)
+  * [How can I contribute](#how-can-i-contribute)
+  * [Governance](#governance)
+  * [DCO Signoff](#dco-signoff)
+  * [Code Review](#code-review)
+  * [I just have a question](#i-just-have-a-question)
+<!-- TOC -->
+
 ## Code of Conduct
 
 This project and everyone participating in it is governed by the [Code of Conduct](CODE_OF_CONDUCT.md).
@@ -18,6 +28,10 @@ You can contribute by:
 
 All bugs, tasks or enhancements are tracked as GitHub issues.
 Issues which might be a good start for new contributors are marked with the “good-start” label.
+
+## Governance
+
+Anyone can help improve the Governance of Kroxylicious! See our [Governance Improvement Process](GOVERNANCE.md#governance-improvement-process) for details.
 
 ## DCO Signoff
 

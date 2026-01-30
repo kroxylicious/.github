@@ -11,11 +11,18 @@ This governance model is designed to uphold the principles of transparency, open
 
 ## Table of Contents
 
-- [Roles and Responsibilities](#roles-and-responsibilities)
-- [Decision Making](#decision-making)
-- [Code of Conduct](#code-of-conduct)
-- [Trademark Policy](#trademark-policy)
-- [Contributing](#contributing)
+<!-- TOC -->
+* [Kroxylicious Governance](#kroxylicious-governance)
+  * [Table of Contents](#table-of-contents)
+  * [Roles and Responsibilities](#roles-and-responsibilities)
+  * [Decision Making](#decision-making)
+  * [Code of Conduct](#code-of-conduct)
+  * [Trademark Policy](#trademark-policy)
+  * [Contributing](#contributing)
+  * [Becoming a Code Owner](#becoming-a-code-owner)
+    * [Code Owner Criteria](#code-owner-criteria)
+  * [Governance Improvement Process](#governance-improvement-process)
+<!-- TOC -->
 
 ## Roles and Responsibilities
 
@@ -65,3 +72,31 @@ To ensure that all potential Code Owners are judged fairly and consistently the 
   * Promotion of Kroxylicious, for example by blogging, speaking at conferences, and so on.
 * Knowing when to ask for help or seek consensus.
 * An indication of being committed to the long term success of the project.
+
+## Governance Improvement Process
+
+We define the following process for improving the Governance of Kroxylicious.
+
+1. **Eligibility:** Any Contributor may submit a proposal to improve our governance. The author is referred to as the *
+   *Proposer**.
+2. **Identification:** Every proposal requires a unique ID following the pattern `GIP-000`, `GIP-001`, etc.
+    * The Proposer selects the next available number based on existing files in the `decision-records` directory and the
+      ids used by open PRs.
+    * *Note:* If a numbering collision occurs with another open PR, the newer PR must update its ID to the next
+      available number.
+3. **Submission:** A Proposal is created by opening a Pull Request (PR) in this repository.
+4. **Requirements:** Each PR must represent a single proposal and include:
+    * **The Policy Change:** Edits to the actual governance files (e.g., `Governance.md`).
+    * **The Record:** A new Governance Decision Record (GDR) file in `decision-records/`, named like
+      `GIP-000-brief-description.md`.
+    * **The Title:** A PR title containing the ID, e.g., `[GIP-000] Adopt Governance Improvement Process`.
+5. **Visibility:** The Proposer must announce the PR in the `#general` channel of the Kroxylicious Slack to invite
+   community review.
+6. **Template:** New GDR files must use the template located
+   at [decision-records/TEMPLATE.md](decision-records/TEMPLATE.md).
+7. **Review:** We follow the [Decision-Making](#decision-making) policy.
+    * Discussion, objections, and voting occur in the PR comments.
+8. **Finalization:**
+    * **If Accepted:** The Proposer must update the GDR file status to "Accepted" and record the ratification date. A
+      Code Owner will then merge the PR.
+    * **If Rejected/Stale:** If a proposal is rejected or remains inactive for two months, the PR will be closed.
