@@ -1,8 +1,8 @@
 # [GIP-000] Adopt Governance Improvement Process
 
 **Status:** Proposed
-**Acceptance Date:** YYYY-MM-DD
-**Deciders:** record votes here
+**Decision Date:** YYYY-MM-DD
+**Vote Results:** record votes here
 
 ---
 

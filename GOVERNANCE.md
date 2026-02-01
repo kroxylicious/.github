@@ -77,8 +77,8 @@ To ensure that all potential Code Owners are judged fairly and consistently the 
 
 We define the following process for improving the Governance of Kroxylicious.
 
-1. **Eligibility:** Any Contributor may submit a proposal to improve our governance. The author is referred to as the *
-   *Proposer**.
+1. **Eligibility:** Any member of our community may submit a proposal to improve our governance.
+    The author is referred to as the **Proposer**.
 2. **Identification:** Every proposal requires a unique ID following the pattern `GIP-000`, `GIP-001`, etc.
     * The Proposer selects the next available number based on existing files in the `decision-records` directory and the
       ids used by open PRs.

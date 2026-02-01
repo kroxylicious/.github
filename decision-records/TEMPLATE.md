@@ -1,8 +1,8 @@
 # [GIP-XXX] Proposal Title
 
 **Status:** Proposed
-**Acceptance Date:** YYYY-MM-DD
-**Deciders:** record votes here
+**Decision Date:** YYYY-MM-DD
+**Vote Results:** record votes here
 
 ---
 
