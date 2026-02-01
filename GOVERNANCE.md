@@ -77,6 +77,9 @@ To ensure that all potential Code Owners are judged fairly and consistently the 
 
 We define the following process for improving the Governance of Kroxylicious.
 
+> **_NOTE:_**  This is the formal process for changing project Governance, but in most cases we would appreciate a conversation
+> beforehand. You can reach out to us on Slack, or create an Issue in this repository to get the ball rolling.
+
 1. **Eligibility:** Any member of our community may submit a proposal to improve our governance.
     The author is referred to as the **Proposer**.
 2. **Identification:** Every proposal requires a unique ID following the pattern `GIP-000`, `GIP-001`, etc.
