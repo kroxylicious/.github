@@ -91,15 +91,17 @@ We define the following process for improving the Governance of Kroxylicious.
 4. **Requirements:** Each PR must represent a single proposal and include:
     * **The Policy Change:** Edits to the actual governance files (e.g., `Governance.md`).
     * **The Record:** A new Governance Decision Record (GDR) file in `decision-records/`, named like
-      `GIP-000-brief-description.md`.
+      `GIP-000-brief-description.md`. This file must follow the template located
+      at [decision-records/TEMPLATE.md](decision-records/TEMPLATE.md).
     * **The Title:** A PR title containing the ID, e.g., `[GIP-000] Adopt Governance Improvement Process`.
 5. **Visibility:** The Proposer must announce the PR in the `#general` channel of the Kroxylicious Slack to invite
-   community review.
-6. **Template:** New GDR files must use the template located
-   at [decision-records/TEMPLATE.md](decision-records/TEMPLATE.md).
-7. **Review:** We follow the [Decision-Making](#decision-making) policy.
-    * Discussion, objections, and voting occur in the PR comments.
+    community review.
+6.  **Review:** We discuss and amend the Proposal until it's in a good shape.
+7. **Open Decision Making Period:** We follow the [Decision-Making](#decision-making) policy.
+    * A **Code Owner** must announce that the Decision Making Period has started, or restarted due to significant modifications.
+      This should be announced in the `#general` channel of our Community Slack.
+    * Discussion, objections, and voting should be done in the PR comments.
 8. **Finalization:**
     * **If Accepted:** The Proposer must update the GDR file status to "Accepted" and record the ratification date. A
       Code Owner will then merge the PR.
-    * **If Rejected/Stale:** If a proposal is rejected or remains inactive for two months, the PR will be closed.
+    * **If Rejected/Stale:** If a proposal is rejected or remains stale (no decision making period declared) for two months, the PR will be closed.
