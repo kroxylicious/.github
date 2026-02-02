@@ -105,3 +105,4 @@ We define the following process for improving the Governance of Kroxylicious.
     * **If Accepted:** The Proposer must update the GDR file status to "Accepted" and record the ratification date. A
       Code Owner will then merge the PR.
     * **If Rejected/Stale:** If a proposal is rejected or remains stale (no decision making period declared) for two months, the PR will be closed.
+      A Code Owner will extract the GDR file from the PR, set its status to "Rejected" and commit it to this repository.
