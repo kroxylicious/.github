@@ -27,11 +27,14 @@ All participants in the project are expected to adhere to the project's [Code of
     The most common kind of contribution requiring such approval is a github pull request (PR); the merging of the PR signifies its approval.
     The duty of a Contributor is to offer a contribution in good faith, to the best of their ability, and being honest when signing off on the Developer Certificate of Origin.
 
-- **Code owners:** Individuals with write access to any repository within the GitHub organisation, responsible for reviewing and merging contributions, and steering project direction. 
-  Those people with code ownership responsibilities will be identified in each repository (`.github/CODEOWNERS`).
-  For the sake of transparency, the membership of github teams will be made public in [TEAMS.md](TEAMS.md).
-
-Reference: [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+- **Committers:** Individuals with write access to any repository within the Kroxylicious GitHub organisation, except for the repository containing this `GOVERNANCE.md` file.
+    The duty of a Committer is to help Contributors make high quality contributions to the Project.
+    As such Committers are responsible for reviewing and merging contributions. 
+    An individual may act as both a Contributor and a Committer for a contribution.
+    
+- **Project Managers:** Individuals with write access to the repository containing this `GOVERNANCE.md` file within the Kroxylicious GitHub organisation.
+    Project Managers are tasked with identifying individuals who have made valuable contributions which further the Project's purpose. 
+    They can collectively decide to invite a Contributor to become a Committer; or to invite a Committer to become a Project Manager. 
 
 ## Contributing
 
@@ -42,17 +45,17 @@ We welcome all forms of contribution, from code improvements to documentation an
 This project follows The [Commonhaus decision making][cdm] process.
 This project uses the following decision making process.
 
-1. **Consensus-seeking (lazy consensus):** The project primarily aims for a consensus-based decision-making process, where code owners and active contributors discuss and come to an agreement.
-2. **Voting:** In situations where consensus cannot be reached, decisions may be made through a simple majority vote among the code owners.
-3. **Conflict Resolution:** If conflicts arise, code owners are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
+1. **Consensus-seeking (lazy consensus):** The project primarily aims for a consensus-based decision-making process, where committers and active contributors discuss and come to an agreement.
+2. **Voting:** In situations where consensus cannot be reached about a PR, decisions may be made through a simple majority vote among the committers.
+3. **Conflict Resolution:** If conflicts arise, project managers are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
 
-## Becoming a Code Owner
+## Becoming a Committer
 
-New Code Owners can be elected by a majority vote of the existing Code Owners following the [Decision Making](#decision-making) process.
+New Committers can be elected by a majority vote of the Project Managers following the [Decision Making](#decision-making) process.
 
-To ensure that all potential Code Owners are judged fairly and consistently the following criteria should be taken into account in electing new Code Owners:
+To ensure that all potential Committers are judged fairly and consistently the following criteria should be taken into account in electing new Committers:
 
-### Code Owner Criteria
+### Committer Criteria
 
 * Sustained contributions over at least 3 months ideally including non-trivial PRs.
 * Reviewing other contributors’ PRs
