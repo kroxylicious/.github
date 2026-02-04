@@ -9,13 +9,24 @@ This governance model is designed to uphold the principles of transparency, open
 [coc]: ./CODE_OF_CONDUCT.md
 [contrib]: ./CONTRIBUTING.md
 
+# Purpose
+
+The purpose of the Kroxylicious Project is to develop a Kafka protocol proxy with an open source license, and to make the resulting software and documentation available to Users.
+
 ## Code of Conduct
 
 All participants in the project are expected to adhere to the project's [Code of Conduct](./CODE_OF_CONDUCT.md). Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
 
-## Roles and Responsibilities
+## Participants
 
-- **Contributors:** Anyone who contributes to the project in any form.
+- **Users:** Anyone using the software is a User. 
+    While the Project exists to provide the software to Users, the other participants' duties are to all current and potential Users collectively, any not to the interests of any one User, or subset of Users.
+
+- **Contributors:** Anyone who contributes to the project in any form is a Contributor.
+    Contributions can take a variety of forms, but many of them, such as source code and documentation, need to be approved before being accepted by the Project.
+    The most common kind of contribution requiring such approval is a github pull request (PR); the merging of the PR signifies its approval.
+    The duty of a Contributor is to offer a contribution in good faith, to the best of their ability, and being honest when signing off on the Developer Certificate of Origin.
+
 - **Code owners:** Individuals with write access to any repository within the GitHub organisation, responsible for reviewing and merging contributions, and steering project direction. 
   Those people with code ownership responsibilities will be identified in each repository (`.github/CODEOWNERS`).
   For the sake of transparency, the membership of github teams will be made public in [TEAMS.md](TEAMS.md).
