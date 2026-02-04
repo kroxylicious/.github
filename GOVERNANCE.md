@@ -9,22 +9,22 @@ This governance model is designed to uphold the principles of transparency, open
 [coc]: ./CODE_OF_CONDUCT.md
 [contrib]: ./CONTRIBUTING.md
 
-## Table of Contents
+## Code of Conduct
 
-- [Roles and Responsibilities](#roles-and-responsibilities)
-- [Decision Making](#decision-making)
-- [Code of Conduct](#code-of-conduct)
-- [Trademark Policy](#trademark-policy)
-- [Contributing](#contributing)
+All participants in the project are expected to adhere to the project's [Code of Conduct](./CODE_OF_CONDUCT.md). Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
 
 ## Roles and Responsibilities
 
+- **Contributors:** Anyone who contributes to the project in any form.
 - **Code owners:** Individuals with write access to any repository within the GitHub organisation, responsible for reviewing and merging contributions, and steering project direction. 
   Those people with code ownership responsibilities will be identified in each repository (`.github/CODEOWNERS`).
   For the sake of transparency, the membership of github teams will be made public in [TEAMS.md](TEAMS.md).
-- **Contributors:** Anyone who contributes to the project in any form.
 
 Reference: [About code owners](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners)
+
+## Contributing
+
+We welcome all forms of contribution, from code improvements to documentation and design. For details on how to contribute and the process your contributions will follow, please read our [Contributing Guidelines][contrib].
 
 ## Decision Making
 
@@ -34,18 +34,6 @@ This project uses the following decision making process.
 1. **Consensus-seeking (lazy consensus):** The project primarily aims for a consensus-based decision-making process, where code owners and active contributors discuss and come to an agreement.
 2. **Voting:** In situations where consensus cannot be reached, decisions may be made through a simple majority vote among the code owners.
 3. **Conflict Resolution:** If conflicts arise, code owners are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
-
-## Code of Conduct
-
-All participants in the project are expected to adhere to the project's [Code of Conduct](./CODE_OF_CONDUCT.md). Please ensure you are familiar with its guidelines and expectations, as it's essential for maintaining a positive and collaborative environment.
-
-## Trademark Policy
-
-The Kroxylicious logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy][ctp].
-
-## Contributing
-
-We welcome all forms of contribution, from code improvements to documentation and design. For details on how to contribute and the process your contributions will follow, please read our [Contributing Guidelines][contrib].
 
 ## Becoming a Code Owner
 
@@ -65,3 +53,7 @@ To ensure that all potential Code Owners are judged fairly and consistently the 
   * Promotion of Kroxylicious, for example by blogging, speaking at conferences, and so on.
 * Knowing when to ask for help or seek consensus.
 * An indication of being committed to the long term success of the project.
+
+## Trademark Policy
+
+The Kroxylicious logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy][ctp].
