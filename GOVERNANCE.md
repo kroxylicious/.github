@@ -25,18 +25,18 @@ All participants in the project are expected to adhere to the project's [Code of
 - **Users:** Anyone using the software is a User. 
     While the Project exists to provide the software to Users, the other participants' duties are to all current and potential Users collectively, any not to the interests of any one User, or subset of Users.
 
-- **Contributors:** Anyone who contributes to the project in any form is a Contributor.
+- **Contributors:** Anyone who contributes to the project, in any form, is a Contributor.
     Contributions can take a variety of forms, but many of them, such as source code and documentation, need to be approved before being accepted by the Project.
-    The most common kind of contribution requiring such approval is a github pull request (PR); the merging of the PR signifies its approval.
+    The most common kind of contribution requiring such approval is a github Pull Request (PR); the merging of the PR signifies its approval.
     The duty of a Contributor is to offer a contribution in good faith, to the best of their ability, and being honest when signing off on the [Developer Certificate of Origin][dco].
 
-- **Committers:** Individuals with write access to any repository within the Kroxylicious GitHub organisation, except for the repository containing this `GOVERNANCE.md` file.
+- **Committers:** Committers are those individuals with write access to any repository within the Kroxylicious GitHub organisation, except for the repository containing this `GOVERNANCE.md` file.
     These people are listed in [COMMITTERS.md][committers].
     The duty of a Committer is to help Contributors make high quality contributions to the Project.
-    As such Committers are responsible for reviewing and merging contributions. 
+    As such, Committers are responsible for reviewing and merging contributions. 
     An individual may act as both a Contributor and a Committer for a contribution.
     
-- **Project Managers:** Individuals with write access to the repository containing this `GOVERNANCE.md` file within the Kroxylicious GitHub organisation.
+- **Project Managers:** Project Managers are those individuals with write access to the repository containing this `GOVERNANCE.md` file within the Kroxylicious GitHub organisation.
     These people are listed in [PMs.md][PMs].
     Project Managers are tasked sustaining the project, in part by identifying individuals who have made valuable contributions which further the Project's purpose. 
     They can collectively decide to invite a Contributor to become a Committer; or to invite a Committer to become a Project Manager. 
@@ -59,7 +59,7 @@ This project uses the following decision making process.
 Existing Committers are encouraged to:
 
 * inform the Project Managers about the review burden they're experiencing.
-* suggest to the Project Managers other individuals who they consider meet the above criteria.
+* suggest to the Project Managers other individuals who they consider meet the Committer criteria below.
 
 The Project Managers should endevour to match the number of active committers to the reported review burden, by inviting Contributors to become Committers.
 
@@ -95,6 +95,13 @@ Unlike the situation for Committers, the need for more Project Managers is not d
 
 A Committer or Project Manager can voluntarily cease their involvement in the project by opening a PR removing themselves from the [COMMITTERS.md][committers] and/or [PMs.md][PMs] files in this repository.
 Such PRs will be deemed as approved automatically, without recourse to the [Decision Making](#decision-making) process.
+
+
+**TODO** figure out how the gitub teams map to things.
+`@kroxylicious/pms` team (was `@kroxylicious/admins`) == `kroxylicious-pms@` mailing list == the Project Managers 
+`@kroxylicious/committers` (was `@kroxylicious/developers`) == The Committers 
+`@kroxylicious/code-reviewers` == an informal team that contributors can ask to be added to if they're willing to review other people's PRs touching code
+`@kroxylicious/doc-reviewers` == an informal team that contributors can ask to be added to if they're willing to review other people's PRs touching docs
 
 ## Trademark Policy
 
