@@ -96,13 +96,6 @@ Unlike the situation for Committers, the need for more Project Managers is not d
 A Committer or Project Manager can voluntarily cease their involvement in the project by opening a PR removing themselves from the [COMMITTERS.md][committers] and/or [PMs.md][PMs] files in this repository.
 Such PRs will be deemed as approved automatically, without recourse to the [Decision Making](#decision-making) process.
 
-
-**TODO** figure out how the gitub teams map to things.
-`@kroxylicious/pms` team (was `@kroxylicious/admins`) == `kroxylicious-pms@` mailing list == the Project Managers 
-`@kroxylicious/committers` (was `@kroxylicious/developers`) == The Committers 
-`@kroxylicious/code-reviewers` == an informal team that contributors can ask to be added to if they're willing to review other people's PRs touching code
-`@kroxylicious/doc-reviewers` == an informal team that contributors can ask to be added to if they're willing to review other people's PRs touching docs
-
 ## Trademark Policy
 
 The Kroxylicious logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy][ctp].
