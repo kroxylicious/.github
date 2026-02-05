@@ -57,7 +57,7 @@ This project uses the following decision making process for PRs in all repositor
 
 This project uses the following decision making process for PRs in the repository containing this `GOVERNANCE.md`, [COMMITTERS.md][committers] and [PMs.md][PMs] files:
 
-1. **Voting:** Decisions may be made through a simple majority vote among the committers who participate in a vote, as tallied 7 days after the start of the voting process.
+1. **Voting:** Decisions may be made through a simple majority vote among the project managers who participate in a vote, as tallied 7 days after the start of the voting process.
 2. **Conflict Resolution:** If conflicts arise, project managers are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
 
 ## Becoming a Committer
