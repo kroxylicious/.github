@@ -36,7 +36,7 @@ All participants in the project are expected to adhere to the project's [Code of
     As such, Committers are responsible for reviewing and merging contributions. 
     An individual may act as both a Contributor and a Committer for a contribution.
     
-- **Project Managers:** Project Managers are those individuals with write access to the repository containing this `GOVERNANCE.md` file within the Kroxylicious GitHub organisation.
+- **Project Managers:** Project Managers are Committers who also have write access to the repository containing this `GOVERNANCE.md` file within the Kroxylicious GitHub organisation.
     These people are listed in [PMs.md][PMs].
     Project Managers are tasked sustaining the project, in part by identifying individuals who have made valuable contributions which further the Project's purpose. 
     They can collectively decide to invite a Contributor to become a Committer; or to invite a Committer to become a Project Manager. 
@@ -48,11 +48,17 @@ We welcome all forms of contribution, from code improvements to documentation an
 ## Decision Making
 
 This project follows The [Commonhaus decision making][cdm] process.
-This project uses the following decision making process.
+
+This project uses the following decision making process for PRs in all repositories except for the repository containing this `GOVERNANCE.md`:
 
 1. **Consensus-seeking (lazy consensus):** The project primarily aims for a consensus-based decision-making process, where committers and active contributors discuss and come to an agreement.
 2. **Voting:** In situations where consensus cannot be reached about a PR, decisions may be made through a simple majority vote among the committers.
 3. **Conflict Resolution:** If conflicts arise, project managers are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
+
+This project uses the following decision making process for PRs in the repository containing this `GOVERNANCE.md`, [COMMITTERS.md][committers] and [PMs.md][PMs] files:
+
+1. **Voting:** Decisions may be made through a simple majority vote among the committers who participate in a vote, as tallied 7 days after the start of the voting process.
+2. **Conflict Resolution:** If conflicts arise, project managers are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
 
 ## Becoming a Committer
 
@@ -61,9 +67,9 @@ Existing Committers are encouraged to:
 * inform the Project Managers about the review burden they're experiencing.
 * suggest to the Project Managers other individuals who they consider meet the Committer criteria below.
 
-The Project Managers should endevour to match the number of active committers to the reported review burden, by inviting Contributors to become Committers.
+The Project Managers should endeavour to match the number of active committers to the reported review burden, by inviting Contributors to become Committers.
 
-New Committers are elected by a majority vote of the Project Managers following the [Decision Making](#decision-making) process.
+New Committers are elected by the Project Managers following the above [Decision Making](#decision-making) process to approve a PR which adds an individual to the [COMMITTERS.md][committers] file.
 
 To ensure that all potential Committers are judged fairly and consistently, the following criteria should be taken into account in electing new Committers:
 
@@ -78,9 +84,9 @@ To ensure that all potential Committers are judged fairly and consistently, the 
 * Knowing when to ask for help or seek consensus.
 * An indication of being committed to the long term success of the project.
 
-## Becoming a Committer or Project Manager
+## Becoming a Project Manager
 
-New Project Managers can be elected by a majority vote of the Project Managers following the [Decision Making](#decision-making) process.
+New Project Managers are elected by the existing Project Managers following the above [Decision Making](#decision-making) process to approve a PR which adds an individual to the [PMs.md][PMs] file.
 
 To ensure that all potential Project Managers are judged fairly and consistently, the following criteria (in addition to those for being a Committer) should be taken into account in electing new Project Managers:
 
