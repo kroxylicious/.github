@@ -28,7 +28,7 @@ All participants in the project are expected to adhere to the project's [Code of
 - **Contributors:** Anyone who contributes to the project, in any form, is a Contributor.
     Contributions can take a variety of forms, but many of them, such as source code and documentation, need to be approved before being accepted by the Project.
     The most common kind of contribution requiring such approval is a github Pull Request (PR); the merging of the PR signifies its approval.
-    The duty of a Contributor is to offer a contribution in good faith, to the best of their ability, and being honest when signing off on the [Developer Certificate of Origin][dco].
+    The duty of a Contributor is to offer a contribution in good faith, to the best of their ability, and to be honest when signing off on the [Developer Certificate of Origin][dco].
 
 - **Committers:** Committers are those individuals with write access to any repository within the Kroxylicious GitHub organisation, except for the repository containing this `GOVERNANCE.md` file.
     These people are listed in [COMMITTERS.md][committers].
@@ -38,7 +38,7 @@ All participants in the project are expected to adhere to the project's [Code of
     
 - **Project Managers:** Project Managers are Committers who also have write access to the repository containing this `GOVERNANCE.md` file within the Kroxylicious GitHub organisation.
     These people are listed in [PMs.md][PMs].
-    Project Managers are tasked sustaining the project, in part by identifying individuals who have made valuable contributions which further the Project's purpose. 
+    Project Managers are tasked with sustaining the project, in part by identifying individuals who have made valuable contributions which further the Project's purpose. 
     They can collectively decide to invite a Contributor to become a Committer; or to invite a Committer to become a Project Manager. 
 
 ## Contributing
