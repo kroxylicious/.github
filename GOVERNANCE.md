@@ -97,6 +97,11 @@ To ensure that all potential Project Managers are judged fairly and consistently
 
 Unlike the situation for Committers, the need for more Project Managers is not driven by the review burden, and is left to the discretion of the existing Project Managers.
 
+The Commonhaus [Extended Governance Committee](https://www.commonhaus.org/bylaws/cf-council.html#extended-governance-committee-egc) has a [primary and secondary](https://github.com/commonhaus/foundation/blob/main/CONTACTS.yaml) representitive from the Project. 
+These will be selected from, and by, the Project Managers.
+Other aspects of this representation are left to the discretion of the Project Managers using the [Decision Making](#decision-making) process.
+
+
 ## Ceasing participation
 
 A Committer or Project Manager can voluntarily cease their involvement in the project by opening a PR removing themselves from the [COMMITTERS.md][committers] and/or [PMs.md][PMs] files in this repository.

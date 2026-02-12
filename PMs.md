@@ -3,12 +3,13 @@
 
 The following people are [Project Managers](GOVERANCE.md).
 The format is: `{preferred name}, {affiliation} (@{github_username})`.
+Those marked with a * have access to the project's shared secrets.
 
 * Tom Bentley, IBM (@tombentley)
-* Robert Young, IBM (@robobario)
-* Sam Barker, IBM (@SamBarker)
+* Robert Young*, IBM (@robobario)
+* Sam Barker*, IBM (@SamBarker)
 * Grace Grimwood, IBM (@gracegrimwood)
-* Keith Wall, IBM (@k-wall)
+* Keith Wall*, IBM (@k-wall)
 * Francisco Vila, IBM (@franvila)
 * Paul Mellor, IBM (@PaulRMellor)
 
