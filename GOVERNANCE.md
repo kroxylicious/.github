@@ -107,6 +107,8 @@ Other aspects of this representation are left to the discretion of the Project M
 A Committer or Project Manager can voluntarily cease their involvement in the project by opening a PR removing themselves from the [COMMITTERS.md][committers] and/or [PMs.md][PMs] files in this repository.
 Such PRs will be deemed as approved automatically, without recourse to the [Decision Making](#decision-making) process.
 
+All other changes to the Committers or Project Managers are, by definition, a change to the `COMMITTERS.md` and/or `PMs.md` files in this repo, which are handled by the decision making processes described above.
+
 ## Trademark Policy
 
 The Kroxylicious logos, icons, and domain names are protected by trademark rights. Usage of these trademarks must adhere to our [Trademark Policy][ctp].
