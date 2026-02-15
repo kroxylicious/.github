@@ -33,7 +33,7 @@ All changes which are to be committed in project source control must be reviewed
 If the change is being authored by someone who is a Committer, that change must be reviewed by at least one other Committer before being merged.
 The GitHub teams `@kroxylicious/code-reviewers` and `@kroxylicious/doc-reviewers` can be used to request a PR review from contributors.
 
-If you're willing to provide code and/or reviews to others then let one of the [project managers](PMs.md) know know and we can add you to the relevant GitHub team.
+If you're willing to provide code and/or reviews to others then let one of the [project managers](PMs.md) know and we can add you to the relevant GitHub team.
 
 ## I just have a question
 
