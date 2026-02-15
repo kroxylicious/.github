@@ -5,6 +5,7 @@ The following people are [Project Managers](GOVERANCE.md).
 The format is: `{preferred name}, {affiliation} (@{github_username})`.
 Those marked with a * have access to the project's shared secrets.
 
+<!-- If adding/removing from the list below, you must also update @kroxylicious/pms -->
 * Tom Bentley, IBM (@tombentley)
 * Robert Young*, IBM (@robobario)
 * Sam Barker*, IBM (@SamBarker)
