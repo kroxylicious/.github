@@ -35,6 +35,12 @@ The GitHub teams `@kroxylicious/code-reviewers` and `@kroxylicious/doc-reviewers
 
 If you're willing to provide code and/or reviews to others then let one of the [project managers](PMs.md) know and we can add you to the relevant GitHub team.
 
+The CI workflow runs the project's unit and integration tests.  All tests must pass before a PR is consider eligible for merging.
+
+The project uses (SonarCloud)[https://sonarcloud.io/organizations/kroxylicious/projects] to help maintain code quality. In general,
+all PRs must meet all the quality gates before being eligible for merge.  Sometimes reasonable code changes cause spurious quality gate
+failures. In these situations, discuss the issue on the PR. If agreeement is reached a Code Owner with Admin rights can bypass the protection.
+
 ## I just have a question
 
 If you encounter any issues while using Kroxylicious, you can get help using:
