@@ -33,5 +33,5 @@ You can contribute by:
 
 ## License
 
-Kroxylciious is licensed under the [Apache License](https://github.com/strimzi/.github/blob/main/LICENSE), Version 2.0
+Kroxylicious is licensed under the [Apache License](https://github.com/strimzi/.github/blob/main/LICENSE), Version 2.0
 
