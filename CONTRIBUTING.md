@@ -6,6 +6,11 @@ This project and everyone participating in it is governed by the [Code of Conduc
 By participating, you are expected to uphold this code. 
 Any unacceptable behavior should be reported to [kroxylicious-admins@redhat.com](mailto:kroxylicious-admins@redhat.com).
 
+## About the Project
+
+Kroxylicious is a Java project built with [Apache Maven](https://maven.apache.org/).
+Individual repositories may have additional details in their `README.md` or `AGENTS.md` files.
+
 ## How can I contribute
 
 You can contribute by:
