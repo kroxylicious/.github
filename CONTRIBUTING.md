@@ -60,7 +60,8 @@ You are responsible for understanding what you are contributing and ensuring it 
 * **Understand your contribution.** You must have a clear understanding of what your contribution does and why.
   Do not submit code, documentation, or other content that you do not understand.
 * **Disclose AI usage.** If AI tools played a significant role in producing a contribution, note this in the pull request description.
-  A brief mention is sufficient (e.g. "AI-assisted" or naming the tool used).
+  Commits should include an `Assisted-by` trailer identifying the tool and model used (e.g. `Assisted-by: Claude Opus 4.6 <noreply@anthropic.com>`).
+  Most AI coding tools can be configured to add this automatically — see the repository's `AGENTS.md` for details.
 * **Ensure originality and licensing compliance.** You are responsible for verifying that AI-generated content does not
   introduce intellectual property or licensing concerns incompatible with the project's [license](./LICENSE).
 * **Meet the same quality bar.** AI-assisted contributions are reviewed to the same standard as any other contribution.
