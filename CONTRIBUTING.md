@@ -45,6 +45,33 @@ The GitHub teams `@kroxylicious/code-reviewers` and `@kroxylicious/doc-reviewers
 
 If you're willing to provide code and/or reviews to others then let one of the [project managers](PMs.md) know and we can add you to the relevant GitHub team.
 
+## Use of AI Assistance
+
+Contributors may use AI tools (such as LLMs, code assistants, and similar) when preparing contributions to Kroxylicious.
+Like any tool, what matters is the quality of the result and that the contributor understands what they are submitting.
+
+When you submit a contribution you are the contributor, regardless of what tools you used to produce it.
+You are responsible for understanding what you are contributing and ensuring it meets the project's standards.
+
+### Requirements
+
+* **You are the contributor.** When you sign off the [DCO](./DCO.txt), you are certifying the contribution as your own.
+  AI-generated or AI-assisted content does not change this obligation.
+* **Understand your contribution.** You must have a clear understanding of what your contribution does and why.
+  Do not submit code, documentation, or other content that you do not understand.
+* **Disclose AI usage.** If AI tools played a significant role in producing a contribution, note this in the pull request description.
+  A brief mention is sufficient (e.g. "AI-assisted" or naming the tool used).
+* **Ensure originality and licensing compliance.** You are responsible for verifying that AI-generated content does not
+  introduce intellectual property or licensing concerns incompatible with the project's [license](./LICENSE).
+* **Meet the same quality bar.** AI-assisted contributions are reviewed to the same standard as any other contribution.
+  Code must be correct, maintainable, tested, and consistent with project conventions.
+
+### AGENTS.md
+
+Individual repositories within the Kroxylicious organisation may include an `AGENTS.md` file.
+These files provide AI tools with project-specific context such as build instructions, architecture, coding conventions, and testing expectations.
+If you are using an AI tool to help prepare a contribution, ensure it has access to the relevant `AGENTS.md` so that its output aligns with project norms.
+
 ## I just have a question
 
 If you encounter any issues while using Kroxylicious, you can get help using:
