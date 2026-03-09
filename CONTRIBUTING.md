@@ -72,6 +72,8 @@ You are responsible for understanding what you are contributing and ensuring it 
 * **Disclose AI usage.** If AI tools played a significant role in producing a contribution, note this in the pull request description.
   Commits should include an `Assisted-by` trailer identifying the tool and model used (e.g. `Assisted-by: Claude Opus 4.6 <noreply@anthropic.com>`).
   Most AI coding tools can be configured to add this automatically — see the repository's `AGENTS.md` for details.
+  Use of AI features in the same way you would use an IDE — code completion, spelling, and the like — does not require disclosure.
+  Disclosure is expected when AI tools are used to generate substantial content such as functions, tests, documentation, or design approaches.
 * **Ensure originality and licensing compliance.** AI-generated content must not reproduce copyrighted material.
   You are responsible for verifying that your contribution does not introduce intellectual property or licensing concerns
   incompatible with the project's [license](./LICENSE). Where your AI tool offers controls to reduce the risk of
