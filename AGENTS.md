@@ -27,17 +27,25 @@ Assisted-by: <Tool and model> <noreply@example.com>
 ### Commit Discipline
 
 - Each commit should be atomic and represent a single logical change.
-- Write clear, descriptive commit messages that explain *why* the change was made, not just *what* changed.
 - Keep commits small enough to be reviewed in a few minutes.
+- Commit messages should explain *why* the change was made, not *what* changed. Reviewers read diffs — they can see what changed. Focus on the problem being solved, the reasoning, or the decision made.
 
 ### Pull Requests
 
+- A pull request should address a single cohesive goal. Do not bundle unrelated changes together — each PR should tell a clear story that a reviewer can follow from start to finish.
 - All changes must be submitted as pull requests.
 - At least one human [Committer](./COMMITTERS.md) must review and approve a pull request before it is merged.
   Automated or AI-assisted reviews (such as security or style checks) may supplement but do not substitute for human review.
   The decision to merge is always made by human Committer(s) following the project's [decision making](./GOVERNANCE.md#decision-making) framework.
-- PR descriptions should summarise the change and note any AI tool involvement.
+- PR descriptions should focus on the problem being addressed, the approach taken, and any trade-offs or alternatives considered. Note any AI tool involvement.
 - Ensure all CI checks pass before requesting review.
+
+### Naming and Comments
+
+Prefer code that is self-describing through clear naming and structure.
+A well-chosen name is almost always better than a comment.
+Names should convey intent and purpose, not encode implementation logic — logic in a name will drift from reality just as quickly as a stale comment.
+Reserve comments for reasoning or constraints that good naming alone cannot convey, but if you find yourself reaching for a comment, first consider whether a rename would make it unnecessary.
 
 ## Technical Foundations
 
