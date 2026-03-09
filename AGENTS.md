@@ -40,6 +40,12 @@ Assisted-by: <Tool and model> <noreply@example.com>
 - PR descriptions should focus on the problem being addressed, the approach taken, and any trade-offs or alternatives considered. Note any AI tool involvement.
 - Ensure all CI checks pass before requesting review.
 
+### Copyright and Licensing
+
+Do not reproduce copyrighted material in generated code, documentation, or other content.
+If you are aware of controls or configuration that reduce the risk of reproducing copyrighted content, ensure they are active.
+All contributions must be compatible with the project's [license](./LICENSE).
+
 ### Naming and Comments
 
 Prefer code that is self-describing through clear naming and structure.
