@@ -40,6 +40,12 @@ Assisted-by: <Tool and model> <noreply@example.com>
 - PR descriptions should focus on the problem being addressed, the approach taken, and any trade-offs or alternatives considered. Note any AI tool involvement.
 - Ensure all CI checks pass before requesting review.
 
+### Conciseness
+
+Be concise and efficient in all generated content.
+Do not produce filler, boilerplate explanations, or unnecessary verbosity.
+Stay focused on the goal at hand — reviewers' time is limited and every line should earn its place.
+
 ### Copyright and Licensing
 
 Do not reproduce copyrighted material in generated code, documentation, or other content.

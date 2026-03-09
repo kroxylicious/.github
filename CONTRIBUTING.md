@@ -48,6 +48,9 @@ All changes which are to be committed in project source control must be reviewed
 If the change is being authored by someone who is a Committer, that change must be reviewed by at least one other Committer before being merged.
 Automated or AI-assisted reviews (such as security or style checks) may supplement but do not substitute for review by a Committer.
 The decision to merge is always made by Committer(s) following the project's [decision making](./GOVERNANCE.md#decision-making) framework.
+Pull requests should be focused on a single goal and sized for effective review.
+We may close pull requests that are unfocused or too large to review effectively, and ask the contributor to break them into smaller, more reviewable changes.
+
 The GitHub teams `@kroxylicious/code-reviewers` and `@kroxylicious/doc-reviewers` can be used to request a PR review from contributors.
 
 If you're willing to provide code and/or reviews to others then let one of the [project managers](PMs.md) know and we can add you to the relevant GitHub team.
@@ -76,6 +79,8 @@ You are responsible for understanding what you are contributing and ensuring it 
 * **Meet the same quality bar.** AI-assisted contributions are reviewed to the same standard as any other contribution.
   Code must be correct, maintainable, tested, and consistent with project conventions.
   We may close pull requests where the contributor does not appear to understand the contribution they have submitted.
+* **Be concise.** AI tools can generate text faster than reviewers can read it.
+  Contributions, PR descriptions, and issue comments should be clear, focused, and free of unnecessary verbosity.
 
 ### AGENTS.md
 
