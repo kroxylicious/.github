@@ -35,7 +35,7 @@ Assisted-by: <Tool and model> <noreply@example.com>
 - All changes must be submitted as pull requests.
 - At least one human [Committer](./COMMITTERS.md) must review and approve a pull request before it is merged.
   Automated or AI-assisted reviews (such as security or style checks) may supplement but do not substitute for human review.
-  The decision to merge is always made by a human committer.
+  The decision to merge is always made by human Committer(s) following the project's [decision making](./GOVERNANCE.md#decision-making) framework.
 - PR descriptions should summarise the change and note any AI tool involvement.
 - Ensure all CI checks pass before requesting review.
 
