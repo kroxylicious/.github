@@ -9,7 +9,7 @@ Any unacceptable behavior should be reported to [kroxylicious-admins@redhat.com]
 ## About the Project
 
 Kroxylicious is a Java project built with [Apache Maven](https://maven.apache.org/).
-Individual repositories may have additional details in their `README.md` or `AGENTS.md` files.
+Individual repositories include a `README.md` with context, build, and usage instructions.
 
 ## How can I contribute
 
@@ -46,9 +46,9 @@ in your pull request. Alternatively, to signoff a bunch of commits you can use `
 
 All changes which are to be committed in project source control must be reviewed by at least one [Committer](COMMITTERS.md) before being merged.
 If the change is being authored by someone who is a Committer, that change must be reviewed by at least one other Committer before being merged.
-Automated or AI-assisted reviews (such as security or style checks) may supplement but do not substitute for review by a Committer.
-The decision to merge is always made by Committer(s) following the project's [decision making](./GOVERNANCE.md#decision-making) framework.
-Pull requests should be focused on a single goal and sized for effective review.
+Automated or AI-assisted reviews, such as security or style checks, can supplement review but do not replace review by a Committer.
+Committers make merge decisions following the project's [decision-making](./GOVERNANCE.md#decision-making) framework.
+Pull requests must focus on a single goal and be sized for effective review.
 We may close pull requests that are unfocused or too large to review effectively, and ask the contributor to break them into smaller, more reviewable changes.
 
 The GitHub teams `@kroxylicious/code-reviewers` and `@kroxylicious/doc-reviewers` can be used to request a PR review from contributors.
@@ -57,15 +57,14 @@ If you're willing to provide code and/or reviews to others then let one of the [
 
 ## Use of AI Assistance
 
-Contributors may use AI tools (such as LLMs, code assistants, and similar) when preparing contributions to Kroxylicious.
-Like any tool, what matters is the quality of the result and that the contributor understands what they are submitting.
+Contributors can use AI tools, such as LLMs and code assistants, when preparing contributions to Kroxylicious.
+As with any tool, the contributor is responsible for the quality of the result and for understanding what they submit.
 
-When you submit a contribution you are the contributor, regardless of what tools you used to produce it.
-You are responsible for understanding what you are contributing and ensuring it meets the project's standards.
+You are responsible for understanding your contribution and ensuring that it meets project standards, regardless of the tools used.
 
 ### Requirements
 
-* **You are the contributor.** When you sign off the [DCO](./DCO.txt), you are certifying the contribution as your own.
+* **You are the contributor.** When you sign off the [DCO](./DCO.txt), you certify the contribution as your own.
   AI-generated or AI-assisted content does not change this obligation.
 * **Understand your contribution.** You must have a clear understanding of what your contribution does and why.
   Do not submit code, documentation, or other content that you do not understand.
