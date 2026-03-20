@@ -67,27 +67,25 @@ You are responsible for understanding your contribution and ensuring that it mee
 * **You are the contributor.** When you sign off the [DCO](./DCO.txt), you certify the contribution as your own.
   AI-generated or AI-assisted content does not change this obligation.
 * **Understand your contribution.** You must have a clear understanding of what your contribution does and why.
-  Do not submit code, documentation, or other content that you do not understand.
-* **Disclose AI usage.** If AI tools played a significant role in producing a contribution, note this in the pull request description.
-  Commits should include an `Assisted-by` trailer identifying the tool and model used (e.g. `Assisted-by: Claude Opus 4.6 <noreply@anthropic.com>`).
+  Do not submit code, documentation, or other content that you do not fully understand.
+* **Disclose AI usage.** If AI tools play a significant role in a contribution, note this in the pull request description.
+  Commits must include an `Assisted-by` trailer that identifies the tool and model used (for example, `Assisted-by: Claude Opus 4.6 <noreply@anthropic.com>`).
   Most AI coding tools can be configured to add this automatically — see the repository's `AGENTS.md` for details.
-  Use of AI features in the same way you would use an IDE — code completion, spelling, and the like — does not require disclosure.
-  Disclosure is expected when AI tools are used to generate substantial content such as functions, tests, documentation, or design approaches.
+  Using AI features in the same way as an IDE, such as code completion or spelling, does not require disclosure.
+  Disclosure is required when AI tools are used to generate substantial content such as functions, tests, documentation, or design approaches.
 * **Ensure originality and licensing compliance.** AI-generated content must not reproduce copyrighted material.
-  You are responsible for verifying that your contribution does not introduce intellectual property or licensing concerns
-  incompatible with the project's [license](./LICENSE). Where your AI tool offers controls to reduce the risk of
-  reproducing copyrighted content, ensure they are enabled.
+  You must verify that your contribution does not introduce intellectual property or licensing issues that are incompatible with the project's [License](./LICENSE). If your AI tool provides controls to reduce the risk of reproducing copyrighted content, make sure that they are enabled.
 * **Meet the same quality bar.** AI-assisted contributions are reviewed to the same standard as any other contribution.
   Code must be correct, maintainable, tested, and consistent with project conventions.
   We may close pull requests where the contributor does not appear to understand the contribution they have submitted.
-* **Be concise.** AI tools can generate text faster than reviewers can read it.
-  Contributions, PR descriptions, and issue comments should be clear, focused, and free of unnecessary verbosity.
+* **Be concise.** AI tools can generate content faster than reviewers can read it.
+  Contributions, PR descriptions, and issue comments should be clear, focused, and free of unnecessary detail.
 
 ### AGENTS.md
 
-Individual repositories within the Kroxylicious organisation may include an `AGENTS.md` file.
+Individual repositories within the Kroxylicious organisation can include an `AGENTS.md` file.
 These files provide AI tools with project-specific context such as build instructions, architecture, coding conventions, and testing expectations.
-If you are using an AI tool to help prepare a contribution, ensure it has access to the relevant `AGENTS.md` so that its output aligns with project norms.
+If you use an AI tool to help prepare a contribution, ensure that it can access the relevant `AGENTS.md` so that its output aligns with project conventions.
 
 ## I just have a question
 
