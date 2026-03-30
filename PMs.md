@@ -1,7 +1,7 @@
 
 # Project Managers
 
-The following people are [Project Managers](GOVERANCE.md).
+The following people are [Project Managers](GOVERNANCE.md).
 The format is: `{preferred name}, {affiliation} (@{github_username})`.
 Those marked with a * have access to the project's shared secrets.
 

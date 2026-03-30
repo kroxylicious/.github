@@ -1,6 +1,6 @@
 # Kroxylicious Committers
 
-The following people are [Committers](GOVERANCE.md).
+The following people are [Committers](GOVERNANCE.md).
 The format is: `{preferred name}, {affiliation} (@{github_username})`.
 
 <!-- If adding/removing from the list below, you must also update @kroxylicious/committers -->
