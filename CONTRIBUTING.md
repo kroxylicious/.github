@@ -68,13 +68,14 @@ You are responsible for understanding your contribution and ensuring that it mee
   AI-generated or AI-assisted content does not change this obligation.
 * **Understand your contribution.** You must have a clear understanding of what your contribution does and why.
   Do not submit code, documentation, or other content that you do not fully understand.
+  You must be able to explain your changes and respond to reviewer feedback in your own words, without relying on AI tools to answer review questions.
 * **Disclose AI usage.** If AI tools play a significant role in a contribution, note this in the pull request description.
   Commits must include an `Assisted-by` trailer that identifies the tool and model used (for example, `Assisted-by: Claude Opus 4.6 <noreply@anthropic.com>`).
   Most AI coding tools can be configured to add this automatically — see the repository's `AGENTS.md` for details.
   Using AI features in the same way as an IDE, such as code completion or spelling, does not require disclosure.
   Disclosure is required when AI tools are used to generate substantial content such as functions, tests, documentation, or design approaches.
-* **Ensure originality and licensing compliance.** AI-generated content must not reproduce copyrighted material.
-  You must verify that your contribution does not introduce intellectual property or licensing issues that are incompatible with the project's [License](./LICENSE). If your AI tool provides controls to reduce the risk of reproducing copyrighted content, make sure that they are enabled.
+* **Ensure licensing compliance.** AI-generated content must not introduce material under licenses incompatible with the project's [License](./LICENSE).
+  If your AI tool provides controls to reduce the risk of reproducing third-party code without appropriate attribution or license compatibility, make sure they are enabled.
 * **Meet the same quality bar.** AI-assisted contributions are reviewed to the same standard as any other contribution.
   Code must be correct, maintainable, tested, and consistent with project conventions.
   We may close pull requests where the contributor does not appear to understand the contribution they have submitted.
