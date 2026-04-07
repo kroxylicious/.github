@@ -18,6 +18,7 @@ You can contribute by:
 
 All bugs, tasks or enhancements are tracked as GitHub issues.
 Issues which might be a good start for new contributors are marked with the “good-start” label.
+Public API changes are required to follow the [Design Process](#design-process)
 
 ## Finding an Issue
 
@@ -44,6 +45,24 @@ If the change is being authored by someone who is a Committer, that change must 
 The GitHub teams `@kroxylicious/code-reviewers` and `@kroxylicious/doc-reviewers` can be used to request a PR review from contributors.
 
 If you're willing to provide code and/or reviews to others then let one of the [project managers](PMs.md) know and we can add you to the relevant GitHub team.
+
+## Design Process
+
+All Public API changes must begin with a design proposal. This includes:
+
+* New APIs or API endpoints
+* Changes to existing API signatures or behavior
+* Removal or deprecation of APIs
+
+Public APIs include (but are not limited to):
+* Proxy configuration YAML
+* Filter configuration YAML
+* Kubernetes CRDs
+* Operator manifested resources (like public bootstrap server addresses)
+* Filter API (and other plugins) interfaces
+* Wire-protocol changes (e.g. format of encrypted data emitted by Proxy)
+
+Design proposals should be submitted to the [design repository](https://github.com/kroxylicious/design).
 
 ## I just have a question
 
