@@ -38,6 +38,7 @@ If later you need to change your mind, for whatever reason, that's fine too. Jus
 
 The project requires that all commits are signed-off, indicating that _you_ certify the changes with the [Developer
 Certificate of Origin (DCO)](./DCO.txt).
+An LLM is not a legal entity and thus cannot sign off on your behalf.
 
 This can be done using `git commit -s` for each commit
 in your pull request. Alternatively, to signoff a bunch of commits you can use `git rebase --signoff _your-branch_`.
@@ -60,7 +61,7 @@ If you're willing to provide code and/or reviews to others then let one of the [
 Contributors can use AI tools, such as LLMs and code assistants, when preparing contributions to Kroxylicious.
 As with any tool, the contributor is responsible for the quality of the result and for understanding what they submit.
 
-You are responsible for understanding your contribution and ensuring that it meets project standards, regardless of the tools used.
+The PR submitter is responsible for understanding their contribution and ensuring that it meets project standards, regardless of the tools used.
 
 ### Requirements
 
@@ -68,25 +69,20 @@ You are responsible for understanding your contribution and ensuring that it mee
   AI-generated or AI-assisted content does not change this obligation.
 * **Understand your contribution.** You must have a clear understanding of what your contribution does and why.
   Do not submit code, documentation, or other content that you do not fully understand.
-  You must be able to explain your changes and respond to reviewer feedback in your own words, without relying on AI tools to answer review questions.
+  You should be able to answer reviewers' questions yourself, without recourse to AI.
+  In particular, do not waste the time of other contributors by being a proxy between reviewers and an AI.
 * **Disclose AI usage.** If AI tools play a significant role in a contribution, note this in the pull request description.
   Commits must include an `Assisted-by` trailer that identifies the tool and model used (for example, `Assisted-by: Claude Opus 4.6 <noreply@anthropic.com>`).
-  Most AI coding tools can be configured to add this automatically — see the repository's `AGENTS.md` for details.
+  Most AI coding tools can be configured to add this automatically.
   Using AI features in the same way as an IDE, such as code completion or spelling, does not require disclosure.
-  Disclosure is required when AI tools are used to generate substantial content such as functions, tests, documentation, or design approaches.
+  Disclosure is required when AI tools are used to generate substantial content such as functions, tests, or documentation.
 * **Ensure licensing compliance.** AI-generated content must not introduce material under licenses incompatible with the project's [License](./LICENSE).
-  If your AI tool provides controls to reduce the risk of reproducing third-party code without appropriate attribution or license compatibility, make sure they are enabled.
+  If your AI tool provides controls to reduce the risk of reproducing copyrighted content, make sure that they are enabled.
 * **Meet the same quality bar.** AI-assisted contributions are reviewed to the same standard as any other contribution.
   Code must be correct, maintainable, tested, and consistent with project conventions.
   We may close pull requests where the contributor does not appear to understand the contribution they have submitted.
 * **Be concise.** AI tools can generate content faster than reviewers can read it.
-  Contributions, PR descriptions, and issue comments should be clear, focused, and free of unnecessary detail.
-
-### AGENTS.md
-
-Individual repositories within the Kroxylicious organisation can include an `AGENTS.md` file.
-These files provide AI tools with project-specific context such as build instructions, architecture, coding conventions, and testing expectations.
-If you use an AI tool to help prepare a contribution, ensure that it can access the relevant `AGENTS.md` so that its output aligns with project conventions.
+  Contributions, PR descriptions, and issue comments should be clear, focused, and free of unnecessary detail. Please respect the time of the other contributors in the community.
 
 ## I just have a question
 
