@@ -6,6 +6,11 @@ This project and everyone participating in it is governed by the [Code of Conduc
 By participating, you are expected to uphold this code. 
 Any unacceptable behavior should be reported to [kroxylicious-admins@redhat.com](mailto:kroxylicious-admins@redhat.com).
 
+## About the Project
+
+Kroxylicious is a Java project built with [Apache Maven](https://maven.apache.org/).
+Individual repositories include a `README.md` with context, build, and usage instructions.
+
 ## How can I contribute
 
 You can contribute by:
@@ -33,6 +38,7 @@ If later you need to change your mind, for whatever reason, that's fine too. Jus
 
 The project requires that all commits are signed-off, indicating that _you_ certify the changes with the [Developer
 Certificate of Origin (DCO)](./DCO.txt).
+An LLM is not a legal entity and thus cannot sign off on your behalf.
 
 This can be done using `git commit -s` for each commit
 in your pull request. Alternatively, to signoff a bunch of commits you can use `git rebase --signoff _your-branch_`.
@@ -41,9 +47,42 @@ in your pull request. Alternatively, to signoff a bunch of commits you can use `
 
 All changes which are to be committed in project source control must be reviewed by at least one [Committer](COMMITTERS.md) before being merged.
 If the change is being authored by someone who is a Committer, that change must be reviewed by at least one other Committer before being merged.
+Automated or AI-assisted reviews, such as security or style checks, can supplement review but do not replace review by a Committer.
+Committers make merge decisions following the project's [decision-making](./GOVERNANCE.md#decision-making) framework.
+Pull requests must focus on a single goal and be sized for effective review.
+We may close pull requests that are unfocused or too large to review effectively, and ask the contributor to break them into smaller, more reviewable changes.
+
 The GitHub teams `@kroxylicious/code-reviewers` and `@kroxylicious/doc-reviewers` can be used to request a PR review from contributors.
 
 If you're willing to provide code and/or reviews to others then let one of the [project managers](PMs.md) know and we can add you to the relevant GitHub team.
+
+## Use of AI Assistance
+
+Contributors can use AI tools, such as LLMs and code assistants, when preparing contributions to Kroxylicious.
+As with any tool, the contributor is responsible for the quality of the result and for understanding what they submit.
+
+The PR submitter is responsible for understanding their contribution and ensuring that it meets project standards, regardless of the tools used.
+
+### Requirements
+
+* **You are the contributor.** When you sign off the [DCO](./DCO.txt), you certify the contribution as your own.
+  AI-generated or AI-assisted content does not change this obligation.
+* **Understand your contribution.** You must have a clear understanding of what your contribution does and why.
+  Do not submit code, documentation, or other content that you do not fully understand.
+  You should be able to answer reviewers' questions yourself, without recourse to AI.
+  In particular, do not waste the time of other contributors by being a proxy between reviewers and an AI.
+* **Disclose AI usage.** If AI tools play a significant role in a contribution, note this in the pull request description.
+  Commits must include an `Assisted-by` trailer that identifies the tool and model used (for example, `Assisted-by: Claude Opus 4.6 <noreply@anthropic.com>`).
+  Most AI coding tools can be configured to add this automatically.
+  Using AI features in the same way as an IDE, such as code completion or spelling, does not require disclosure.
+  Disclosure is required when AI tools are used to generate substantial content such as functions, tests, or documentation.
+* **Ensure licensing compliance.** AI-generated content must not introduce material under licenses incompatible with the project's [License](./LICENSE).
+  If your AI tool provides controls to reduce the risk of reproducing copyrighted content, make sure that they are enabled.
+* **Meet the same quality bar.** AI-assisted contributions are reviewed to the same standard as any other contribution.
+  Code must be correct, maintainable, tested, and consistent with project conventions.
+  We may close pull requests where the contributor does not appear to understand the contribution they have submitted.
+* **Be concise.** AI tools can generate content faster than reviewers can read it.
+  Contributions, PR descriptions, and issue comments should be clear, focused, and free of unnecessary detail. Please respect the time of the other contributors in the community.
 
 ## I just have a question
 
