@@ -53,7 +53,7 @@ Public APIs include (but are not limited to):
 * Wire-protocol changes (e.g. format of encrypted data emitted by Proxy)
 
 Design proposals should be submitted to the [design repository](https://github.com/kroxylicious/design).
-After creating a design proposal, please advertise it on the kroxylicious-dev@googlegroups.com [mailing list](https://kroxylicious.io/join-us/mailing-lists).
+After creating a design proposal, once it is ready for review, please advertise it on the kroxylicious-dev@googlegroups.com [mailing list](https://kroxylicious.io/join-us/mailing-lists).
 
 ## I just have a question
 
