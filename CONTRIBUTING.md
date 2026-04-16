@@ -36,7 +36,7 @@ The CI workflow runs the project's unit and integration tests.  All tests must p
 
 The project uses (SonarCloud)[https://sonarcloud.io/organizations/kroxylicious/projects] to help maintain code quality. In general,
 all PRs must meet all the quality gates before being eligible for merge.  Sometimes reasonable code changes cause spurious quality gate
-failures. In these situations, discuss the issue on the PR. If agreeement is reached a @kroxylicious/pms, they can bypass the protection.
+failures. In these situations, discuss the issue on the PR. If agreeement is reached with a @kroxylicious/pms, they can bypass the gate and merge the PR.
 
 ## I just have a question
 
