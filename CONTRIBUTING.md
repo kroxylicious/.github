@@ -84,6 +84,12 @@ The PR submitter is responsible for understanding their contribution and ensurin
 * **Be concise.** AI tools can generate content faster than reviewers can read it.
   Contributions, PR descriptions, and issue comments should be clear, focused, and free of unnecessary detail. Please respect the time of the other contributors in the community.
 
+The CI workflow runs the project's unit and integration tests.  All tests must pass before a PR is consider eligible for merging.
+
+The project uses (SonarCloud)[https://sonarcloud.io/organizations/kroxylicious/projects] to help maintain code quality. In general,
+all PRs must meet all the quality gates before being eligible for merge.  Sometimes reasonable code changes cause spurious quality gate
+failures. In these situations, discuss the issue on the PR. If agreeement is reached with a @kroxylicious/pms, they can bypass the gate and merge the PR.
+
 ## I just have a question
 
 If you encounter any issues while using Kroxylicious, you can get help using:
