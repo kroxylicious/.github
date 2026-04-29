@@ -1,0 +1,33 @@
+name: Project Item Move Logger
+
+on:
+  project_item:
+    types:
+      - edited
+
+jobs:
+  debug_payload:
+    runs-on: ubuntu-latest
+    permissions:
+      repository-projects: read
+      issues: read
+      pull-requests: read
+      contents: read
+      
+    steps:
+      - name: Dump GitHub Event Payload
+        env:
+          EVENT_CONTEXT: ${{ toJson(github.event) }}
+        run: |
+          echo "--- FULL EVENT PAYLOAD ---"
+          echo "$EVENT_CONTEXT" | jq .
+          
+      - name: Targeted Echo
+        run: |
+          FIELD_NAME="${{ github.event.changes.field_value.field_name }}"
+          
+          if [ "$FIELD_NAME" = "Status" ]; then
+            echo "Action: Column Move Detected"
+          else
+            echo "Action: Other field edit ($FIELD_NAME)"
+          fi
