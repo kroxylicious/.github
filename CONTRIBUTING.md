@@ -27,7 +27,7 @@ Public API changes are required to follow the [Design Process](#design-process)
 
 ## Finding an Issue
 
-We have issues labelled [good first issue](https://github.com/kroxylicious/kroxylicious/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22good%20first%20issue%22) for new contributors and [help wanted](https://github.com/kroxylicious/kroxylicious/issues?q=is%3Aissue%20state%3Aopen%20label%3A%22help%20wanted%22) issues suitable for any contributor. 
+We have issues labelled [good first issue](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20org%3Akroxylicious%20label%3A%22good%20first%20issue%22) for new contributors and [help wanted](https://github.com/issues?q=is%3Aissue%20is%3Aopen%20org%3Akroxylicious%20label%3A%22help%20wanted%22) issues suitable for any contributor. 
 
 Sometimes there won't be any issues with these labels. That's ok! There is likely still something for you to work on. If you want to contribute but you
 don't know where to start or can't find a suitable issue, you can come [chat to us](https://kroxylicious.slack.com/archives/C050RNMQW8G).
