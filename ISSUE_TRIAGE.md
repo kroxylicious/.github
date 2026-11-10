@@ -41,6 +41,7 @@ Does this issue require synchronous discussion at a community call?
 
 Apply labels to help categorize and route the issue:
 
+- **triage**: Signals that the issue has been triaged and accepted as valid for the project
 - **good-first-issue**: Issues suitable for new contributors
 - **help-wanted**: Issues open to community contributions
 - **kind/bug**: Bug report
