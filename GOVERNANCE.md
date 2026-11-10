@@ -33,7 +33,7 @@ All participants in the project are expected to adhere to the project's [Code of
 
 - **Triagers:** Triagers are Contributors who have been granted the GitHub "Triage" permission on any repository within the Kroxylicious GitHub organisation, except for the repository containing this `GOVERNANCE.md` file.
     These people are listed in [TRIAGERS.md][triagers].
-    This permission allows them to help manage issues and pull requests, for example by assigning issues (including to themselves), adding and removing labels, and applying milestones.
+    This permission allows them to help manage issues and pull requests, for example by assigning issues (including to themselves), adding and removing labels, applying milestones, and maintaining the Project's GitHub project boards (for example by moving items between columns).
     It does not allow them to push to, or merge pull requests in, those repositories.
     The duty of a Triager is to help keep the Project's issues and pull requests organised, so that it is easy for Contributors to find and pick up work.
 
