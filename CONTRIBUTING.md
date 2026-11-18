@@ -35,6 +35,10 @@ don't know where to start or can't find a suitable issue, you can come [chat to 
 Once you see an issue that you'd like to work on, please post a comment saying that you want to work on it. Something like "I want to work on this" is fine.
 If later you need to change your mind, for whatever reason, that's fine too. Just post another message so others know its free.
 
+## Issue Triage
+
+The Kroxylicious team conducts regular triage meetings to review and process the upstream backlog. For details on the triage process, see [ISSUE_TRIAGE.md](ISSUE_TRIAGE.md).
+
 ## DCO Signoff
 
 The project requires that all commits are signed-off, indicating that _you_ certify the changes with the [Developer
