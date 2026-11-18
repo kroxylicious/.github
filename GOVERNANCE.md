@@ -11,6 +11,7 @@ This governance model is designed to uphold the principles of transparency, open
 [dco]: ./DCO.txt
 [committers]: ./COMMITTERS.md
 [PMs]: ./PMs.md
+[triagers]: ./TRIAGERS.md
 
 # Purpose
 
@@ -30,16 +31,23 @@ All participants in the project are expected to adhere to the project's [Code of
     The most common kind of contribution requiring such approval is a github Pull Request (PR); the merging of the PR signifies its approval.
     The duty of a Contributor is to offer a contribution in good faith, to the best of their ability, and to be honest when signing off on the [Developer Certificate of Origin][dco].
 
+- **Triagers:** Triagers are Contributors who have been granted the GitHub "Triage" permission on any repository within the Kroxylicious GitHub organisation, except for the repository containing this `GOVERNANCE.md` file.
+    These people are listed in [TRIAGERS.md][triagers].
+    This permission allows them to help manage issues and pull requests, for example by assigning issues (including to themselves), adding and removing labels, applying milestones, and maintaining the Project's GitHub project boards (for example by moving items between columns).
+    It does not allow them to push to, or merge pull requests in, those repositories.
+    The duty of a Triager is to help keep the Project's issues and pull requests organised, so that it is easy for Contributors to find and pick up work.
+
 - **Committers:** Committers are those individuals with write access to any repository within the Kroxylicious GitHub organisation, except for the repository containing this `GOVERNANCE.md` file.
     These people are listed in [COMMITTERS.md][committers].
+    Committers have all the privileges of a Triager, so are not also listed in [TRIAGERS.md][triagers].
     The duty of a Committer is to help Contributors make high quality contributions to the Project.
     As such, Committers are responsible for reviewing and merging contributions. 
     An individual may act as both a Contributor and a Committer for a contribution.
     
 - **Project Managers:** Project Managers are Committers who also have write access to the repository containing this `GOVERNANCE.md` file within the Kroxylicious GitHub organisation.
     These people are listed in [PMs.md][PMs].
-    Project Managers are tasked with sustaining the project, in part by identifying individuals who have made valuable contributions which further the Project's purpose. 
-    They can collectively decide to invite a Contributor to become a Committer; or to invite a Committer to become a Project Manager. 
+    Project Managers are tasked with sustaining the project, in part by identifying individuals who have made valuable contributions which further the Project's purpose.
+    They can collectively decide to invite a Contributor to become a Triager or a Committer; or to invite a Committer to become a Project Manager.
 
 ## Contributing
 
@@ -55,10 +63,25 @@ This project uses the following decision making process for PRs in all repositor
 2. **Voting:** In situations where consensus cannot be reached about a PR, decisions may be made through a simple majority vote among the committers.
 3. **Conflict Resolution:** If conflicts arise, project managers are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
 
-This project uses the following decision making process for PRs in the repository containing this `GOVERNANCE.md`, [COMMITTERS.md][committers] and [PMs.md][PMs] files:
+This project uses the following decision making process for PRs in the repository containing this `GOVERNANCE.md`, [TRIAGERS.md][triagers], [COMMITTERS.md][committers] and [PMs.md][PMs] files:
 
 1. **Voting:** Decisions may be made through a simple majority vote among the project managers who participate in a vote, as tallied 7 days after the start of the voting process.
 2. **Conflict Resolution:** If conflicts arise, project managers are responsible for facilitating a resolution. The [Commonhaus Foundation Council][cfc] (CFC) can be asked to mediate the discussion, if necessary.
+
+## Becoming a Triager
+
+Triager is a lightweight role for Contributors who are regularly helping with issues and pull requests, but who are not (yet) Committers.
+It is expected, though not required, that becoming a Triager is the first step on the path to becoming a Committer.
+
+Committers and Project Managers can propose a Triager, and anyone can ask to be considered.
+
+New Triagers are elected by the Project Managers following the above [Decision Making](#decision-making) process to approve a PR which adds an individual to the [TRIAGERS.md][triagers] file.
+The same individual must also be added to the `@kroxylicious/triagers` GitHub team, which is what grants the Triage permission.
+
+There are no formal criteria for becoming a Triager.
+The Project Managers should look for some demonstrated engagement with the project (for example, helpful issue reports, comments, reviews or PRs), and good judgement in how that engagement was conducted.
+
+A Triager who is elected as a Committer should be removed from [TRIAGERS.md][triagers] in the same PR which adds them to [COMMITTERS.md][committers].
 
 ## Becoming a Committer
 
@@ -104,10 +127,10 @@ Other aspects of this representation are left to the discretion of the Project M
 
 ## Ceasing participation
 
-A Committer or Project Manager can voluntarily cease their involvement in the project by opening a PR removing themselves from the [COMMITTERS.md][committers] and/or [PMs.md][PMs] files in this repository.
+A Triager, Committer or Project Manager can voluntarily cease their involvement in the project by opening a PR removing themselves from the [TRIAGERS.md][triagers], [COMMITTERS.md][committers] and/or [PMs.md][PMs] files in this repository.
 Such PRs will be deemed as approved automatically, without recourse to the [Decision Making](#decision-making) process.
 
-All other changes to the Committers or Project Managers are, by definition, a change to the `COMMITTERS.md` and/or `PMs.md` files in this repo, which are handled by the decision making processes described above.
+All other changes to the Triagers, Committers or Project Managers are, by definition, a change to the `TRIAGERS.md`, `COMMITTERS.md` and/or `PMs.md` files in this repo, which are handled by the decision making processes described above.
 
 ## Trademark Policy
 
