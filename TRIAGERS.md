@@ -7,6 +7,5 @@ Committers and Project Managers have all the privileges of a Triager, so are not
 
 <!-- If adding/removing from the list below, you must also update @kroxylicious/triagers -->
 * Adam Pilkington, IBM (@MarkNSweep)
-* Aditya Thakur, IBM (@AdityaThakur1998)
 
 The triagers can be addressed collectively in GitHub using the `@kroxylicious/triagers` team.
