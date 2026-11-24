@@ -11,6 +11,7 @@ The format is: `{preferred name}, {affiliation} (@{github_username})`.
 * Keith Wall, IBM (@k-wall)
 * Francisco Vila, IBM (@franvila)
 * Paul Mellor, IBM (@PaulRMellor)
+* Aditya Thakur, IBM (@AdityaThakur1998)
 
 The committers can be addressed collectively in GitHub using the `@kroxylicious/committers` team.
 
